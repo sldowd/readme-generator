@@ -49,7 +49,7 @@ const questions = [{
 
 // TODO: Create a function to write README file
 function writeToFile(userInput) {
-    fs.writeFile('./dist/readme.md', generateReadme(userInput), err => {
+    fs.writeFile('./dist/readme.md', generateReadme(userInput[0]), err => {
         if(err) throw err;
 
         console.log('readme generated');
@@ -71,5 +71,3 @@ function init() {
 
 // Function call to initialize app
 init();
-
-module.exports = userInput;
