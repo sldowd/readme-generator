@@ -1,13 +1,9 @@
-const userInput = require('../index');
 
-const generateReadme = userInput => {
-    console.log(userInput);
-    return `
-    # ${userInput.projectName}
+    # undefined
 
     ## Description
     
-    ${userInput.description}
+    undefined
 
     ## Table of Contents
 
@@ -20,17 +16,17 @@ const generateReadme = userInput => {
          
     ## Installation
 
-    ${userInput.installation}
+    undefined
 
     ## Usage
 
-    ${userInput.usage}
+    undefined
 
     ## License
 
-    Copyright (c) ${userInput.githubUsername}. All rights reserved. 
+    Copyright (c) undefined. All rights reserved. 
 
-    Licensed under the ${userInput.license} license.
+    Licensed under the undefined license.
 
     ## Contributing 
 
@@ -171,13 +167,10 @@ const generateReadme = userInput => {
 
     ## Tests
 
-    ${userInput.tests}
+    undefined
 
     ## Questions
 
-    Addtional Questions? Email them to ${userInput.email}.
-    <a href="https://github.com/${userInput.githubUsername}/">Github</a>
-    `;
-}
-
-module.exports = generateReadme;
+    Addtional Questions? Email them to undefined.
+    <a href="https://github.com/undefined/">Github</a>
+    
