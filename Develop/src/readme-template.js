@@ -242,7 +242,7 @@ ${userInput.tests}
 ### Questions
 
 Addtional Questions? Email them to ${userInput.email}.
-<a href="https://github.com/${userInput.githubUsername}/">View creator Github here.</a>
+[View creator Github here.](https://github.com/${userInput.githubUsername}/)
     `;
 }
 
